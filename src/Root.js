@@ -5,7 +5,9 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducers from 'reducers';
 
-// Root component allows us to create Provider tag with the redux store and on the fly we can swap out component that is going to be placed within the provider tag
+// Root component allows creating Provider tag with the redux store
+// on the fly we can swap out component that is going to be placed within the provider tag
+// createStore takes two arguments - the list of reducers, and initial state of the application
 export default props => {
   return (
     <Provider store={createStore(reducers, {})}>
