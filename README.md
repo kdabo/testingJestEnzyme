@@ -13,3 +13,7 @@ three general functions to create instances of component and writing expectation
 The key is that it is NOT possible to interact with generated HTML.
 2. shallow renderer - takes the instance of component, renders JUST the given component and none of its children
 3. Full DOM renderer- takes the instance of component, renders the component and all of it's children. Returns the object that can be used to interact with the component
+
+
+Async middlewares architecture and schema
+ https://drive.google.com/file/d/1S5EzQkffCJ9pGHr6rhkgFj7Pw6G3TR2p/view?usp=sharing
